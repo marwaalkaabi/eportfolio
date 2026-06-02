@@ -1,97 +1,81 @@
-# My E-Portfolio
-
-## About Me
-
-My name is Marwa Alkaabi.
-
-I am studying at the University of Essex Online.
-
-This portfolio documents my academic journey, learning experiences, projects and professional development.
-
----
-
 # Machine Learning Module
 
-## Learning Outcomes
+## Unit 1 – Introduction to Machine Learning
 
-During this module I learned:
+### What I Learned
 
-- Machine learning concepts and techniques
-- Supervised and unsupervised learning
-- Model evaluation methods
-- Ethical and professional issues in AI
-- Team collaboration in software development
+In this unit, I gained an understanding of the role of machine learning in modern industry and everyday life. I learned about the history, current applications and future opportunities of machine learning. I also explored the relationship between machine learning, artificial intelligence and big data analytics.
 
----
+### Skills Developed
 
-## Artefacts
+- Understanding machine learning concepts.
+- Awareness of machine learning opportunities and challenges.
+- Knowledge of skills required for a machine learning career.
 
-### Artefact 1 – Discussion Activity
+### Evidence
 
-Description:
-Participated in weekly discussion activities related to machine learning topics.
-
-Learning:
-Improved my understanding of machine learning concepts and ethical considerations.
-
-Feedback:
-Received constructive feedback from peers and tutor.
+- Completion of Unit 1 lecturecast.
+- Completion of Unit 1 reading.
+- Participation in introductory discussions and team project activities.
 
 ---
 
-### Artefact 2 – Project Work
+## Unit 2 – Exploratory Data Analysis (EDA)
 
-Description:
-Contributed to the group project.
+### What I Learned
 
-Learning:
-Developed practical experience applying machine learning methods.
+This unit introduced Exploratory Data Analysis (EDA) and its importance in preparing data for machine learning models. I learned how to explore datasets, identify anomalies and understand patterns through visual analysis.
 
-Feedback:
-Improved teamwork and communication skills.
+### Skills Developed
+
+- Basic exploratory data analysis.
+- Dataset understanding and preparation.
+- Identifying anomalies and data quality issues.
+
+### Evidence
+
+- Completion of Unit 2 reading activities.
+- Participation in discussion activities.
+- Contribution to team project discussions.
 
 ---
 
-## Meeting Notes
+## Unit 3 – Correlation and Regression
 
-### Meeting 1
+### What I Learned
 
-- Discussed project objectives.
-- Assigned responsibilities.
+In this unit, I learned how correlation and regression are used to analyse relationships between variables. I developed an understanding of how these statistical techniques support prediction and decision-making in machine learning.
 
-### Meeting 2
+### Skills Developed
 
-- Reviewed project progress.
-- Identified challenges and solutions.
+- Understanding correlation and regression.
+- Interpreting relationships between variables.
+- Applying statistical techniques to real-world scenarios.
+
+### Evidence
+
+- Completion of Unit 3 lecturecast.
+- Completion of Unit 3 reading.
+- Completion of e-Portfolio activity.
+- Participation in discussion activities.
+
+---
+
+## Team Project
+
+### My Contribution
+
+I participated in team discussions and collaborative activities related to the group project. I contributed ideas, communicated with team members and supported project planning activities.
+
+### Skills Developed
+
+- Teamwork.
+- Communication.
+- Collaboration in a professional environment.
+- Time management.
 
 ---
 
 ## Reflection
 
-This module enhanced my understanding of machine learning techniques and their application to real-world problems.
-
-I developed technical skills, teamwork skills and problem-solving abilities.
-
-Working within a team helped me improve communication and collaboration while completing project tasks.
-
-The experience increased my confidence in applying machine learning concepts and prepared me for future professional development.
-
----
-
-## Professional Skills Matrix
-
-| Skill | Before Module | After Module |
-|---------|---------|---------|
-| Python | Basic | Improved |
-| Machine Learning | Beginner | Intermediate |
-| Teamwork | Basic | Stronger |
-| Communication | Basic | Improved |
-
----
-
-## Action Plan
-
-- Continue developing machine learning skills.
-- Build additional projects.
-- Improve model evaluation techniques.
-- Strengthen professional communication skills.
+Through the first three units, I have developed a stronger understanding of machine learning concepts and data analysis techniques. The module has helped me build both technical and professional skills. Working within a team has improved my communication and collaboration skills, while the practical activities have strengthened my confidence in applying machine learning concepts to real-world problems.tion skills.
