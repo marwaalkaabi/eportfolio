@@ -12,7 +12,11 @@ This e-portfolio documents my learning journey, projects, reflections and profes
 
 ## Modules
 
+- Introduction Computing
+- The Data Professional
+- Numerical Analysis 
 - Machine Learning
+  
 
 ## Reflection
 
