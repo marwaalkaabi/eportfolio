@@ -61,9 +61,27 @@ Completing the summary post helped me connect the ideas discussed throughout the
 
 ![Collaborative Discussion 1 Summary Post](Unit3-Summary-Post.png)
 
-## Unit 4
+## Unit 4: Data Cleaning and Transformation
 
-To be completed.
+### Data Management Pipeline and Data Cleaning
+
+In Unit 4, I developed my understanding of data cleaning and transformation and their role within the data management pipeline. The unit highlighted the importance of preparing data before analysis and considering factors that may affect data quality.
+
+I learned that data cleaning and transformation are important stages in the data pipeline because data may contain errors, inconsistencies or unsuitable formats. Preparing and transforming data helps improve its quality and makes it more appropriate for further analysis.
+
+The unit also introduced the relationship between data management, data cleaning and process automation. This helped me understand that effective data preparation is not simply about correcting individual errors, but about considering how data moves through the wider pipeline.
+
+### Reflection
+
+The Data Management Pipeline Test helped me check my understanding of the concepts covered in this unit. I achieved a score of 10/10 (100%). This demonstrated that I had understood the key concepts relating to the data management pipeline.
+
+The unit has strengthened my understanding of the importance of data quality and preparation. I can also see how these concepts connect with the earlier units, particularly data collection, storage and data wrangling.
+
+### Evidence
+
+- Data Management Pipeline Test result: 10/10 (100%)
+
+![Unit 4 Data Management Pipeline Test](Unit4-Data-Management-Pipeline-Test.png)
 
 ## Unit 5
 
