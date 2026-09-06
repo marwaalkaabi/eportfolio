@@ -7,3 +7,7 @@
 ## Modules
 
 [Machine Learning Module](MachineLearning.md)
+
+
+
+[Deciphering Big Data Module](DecipheringBigData.md)
