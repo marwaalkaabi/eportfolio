@@ -14,6 +14,8 @@ The discussion helped me understand that collecting larger volumes of data does 
 
 Peer feedback also encouraged me to consider practical approaches for reducing IoT security risks, including authentication, encryption, software updates and monitoring. This helped me recognise how peer discussion can identify areas where my initial analysis can be developed further.
 
+![Unit 1 Collaborative Discussion Evidence](Unit1-Collaborative-Discussion.png)
+
 ### Evidence
 
 - Initial post for Collaborative Discussion 1
