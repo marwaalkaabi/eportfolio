@@ -83,9 +83,18 @@ The unit has strengthened my understanding of the importance of data quality and
 
 ![Unit 4 Data Management Pipeline Test](Unit4-Data-Management-Pipeline-Test.png)
 
-## Unit 5
 
-To be completed.
+## Unit 5: Data Cleaning and Automating Data Collections
+
+### Learning Reflection
+
+In Unit 5, I developed my practical understanding of data cleaning and the use of Python to support data preparation and processing. I worked through the activities in the unit and explored how data can be cleaned, organised and converted into appropriate formats such as CSV.
+
+Through these activities, I gained a better understanding of the importance of identifying data quality issues before analysis. I also explored how Python scripts can be used to automate repetitive data-cleaning tasks. This showed me how automation can improve efficiency, particularly when working with larger datasets where manual processing would be time-consuming.
+
+The unit also helped me understand the importance of clearly defining the inputs, outputs and purpose of an automated process. I learned that automation should be designed around a specific task rather than applied without considering the requirements of the data and the intended outcome.
+
+I also developed my understanding of data models and how they can be used as conceptual representations of relationships between data. Overall, Unit 5 strengthened my understanding of the connection between data cleaning, automation and effective data management, and showed me how Python can support more efficient and reliable data-processing workflows.
 
 ## Unit 6
 
