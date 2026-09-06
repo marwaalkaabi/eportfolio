@@ -96,9 +96,61 @@ The unit also helped me understand the importance of clearly defining the inputs
 
 I also developed my understanding of data models and how they can be used as conceptual representations of relationships between data. Overall, Unit 5 strengthened my understanding of the connection between data cleaning, automation and effective data management, and showed me how Python can support more efficient and reliable data-processing workflows.
 
-## Unit 6
+# Unit 6 – Database Design and Normalisation
 
-To be completed.
+## Introduction
+
+In Unit 6, I developed my understanding of database design, data integrity and normalisation. This unit helped me connect the theoretical concepts of relational databases with the practical database work I completed as part of the project. I worked with the Olist Retail database using DB Browser for SQLite and used SQL queries to inspect the structure of the data and analyse relationships between tables.
+
+## Database Structure
+
+As part of my project work, I examined the main tables within the database. This helped me understand how the dataset was organised and how different types of information were stored separately.
+
+The database contained 1,000 customer records, 1,000 order records, 1,151 order-item records and 942 product records in the sample I examined.
+
+![Database Tables](database_tables.png)
+
+*Figure 1: Checking the number of records in the main database tables.*
+
+This activity helped me understand why database design is important. Separating information into related tables can reduce unnecessary duplication and makes the data easier to manage and analyse.
+
+## Relationships and Foreign Keys
+
+I also investigated the relationships between tables. In particular, I examined the `order_items` table and its foreign-key relationships.
+
+![Foreign Key Relationships](foreign_key_relationships.png)
+
+*Figure 2: Foreign-key relationships identified in the order_items table.*
+
+The results showed how `order_items` is connected to other tables through identifiers such as `order_id` and `product_id`. This gave me a clearer practical understanding of primary and foreign keys and how they help maintain relationships between data stored in different tables.
+
+## Using SQL for Data Analysis
+
+After examining the database structure, I used SQL queries to produce useful information from the data. One calculation was the average order value.
+
+![Average Order Value](average_order_value.png)
+
+*Figure 3: SQL calculation of the average order value.*
+
+The query produced an average order value of 135.15. This demonstrated how data stored across transactional records can be summarised into information that is easier to interpret.
+
+I also analysed sales according to product category.
+
+![Sales by Product Category](sales_by_category.png)
+
+*Figure 4: SQL analysis of total sales by product category.*
+
+This query grouped the data by product category and calculated total sales for each category. It demonstrated how relationships between tables can be used to support more meaningful analysis rather than examining individual records separately.
+
+## Reflection
+
+This unit improved my understanding of how relational databases are structured and why normalisation is important. Before completing this work, I mainly viewed a database as a place for storing data. Through the unit and the practical project, I developed a better understanding of how tables, primary keys and foreign keys work together to organise data and maintain relationships.
+
+The practical SQL work was particularly useful because it allowed me to apply database concepts to an actual dataset. Examining table structures and relationships helped me understand the importance of designing databases carefully before carrying out analysis.
+
+I also learned that a well-organised database makes analytical queries more effective. By connecting related tables, I was able to calculate measures such as average order value and compare sales across product categories.
+
+Overall, Unit 6 strengthened both my technical SQL skills and my understanding of database design. These skills will be useful when working with larger datasets because good database structure, data integrity and clear relationships are important for producing reliable analysis.
 
 ## Unit 7
 
