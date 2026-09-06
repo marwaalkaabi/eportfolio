@@ -19,6 +19,9 @@ Peer feedback also encouraged me to consider practical approaches for reducing I
 ### Evidence
 
 - Initial post for Collaborative Discussion 1
+  
+![Unit 1 Collaborative Discussion Evidence](Unit1-Collaborative-Discussion.png)
+
 - Peer response received on my initial post
 
 ## Unit 2
