@@ -20,11 +20,26 @@ Peer feedback also encouraged me to consider practical approaches for reducing I
   
 ![Unit 1 Collaborative Discussion Evidence](Unit1-Collaborative-Discussion.png)
 
-- Peer response received on my initial post
 
-## Unit 2
+## Unit 2: Introduction to Data Types and Formats
 
-To be completed.
+### Collaborative Discussion 1 – Peer Responses
+
+In Unit 2, I continued Collaborative Discussion 1 by responding to my peers' contributions on IoT and large-scale data collection. This activity allowed me to move beyond my initial analysis and critically consider different perspectives on data quality, security and the reliability of IoT data.
+
+Through my peer responses, I explored how continuously generated IoT data requires ongoing monitoring and validation rather than relying only on data cleaning at the final stage of analysis. I also considered how cybersecurity weaknesses can affect not only privacy but also the integrity and reliability of organisational data. This developed my understanding that effective data management requires an integrated approach combining data quality, cybersecurity, privacy protection and continuous risk management.
+
+Engaging with my peers also helped me develop my critical evaluation skills, as I had to compare their arguments with academic literature and provide evidence-based responses rather than simply agreeing or disagreeing.
+
+### Evidence
+
+- Peer response discussing IoT data quality, continuous monitoring and validation.
+
+![Unit 2 Peer Response – Data Quality](Unit2-Peer-Response-1.png)
+
+- Peer response discussing cybersecurity, privacy, data integrity and IoT governance.
+
+![Unit 2 Peer Response – Cybersecurity and Governance](Unit2-Peer-Response-2.png)
 
 ## Unit 3
 
