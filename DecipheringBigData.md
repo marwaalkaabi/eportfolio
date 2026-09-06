@@ -41,9 +41,25 @@ Engaging with my peers also helped me develop my critical evaluation skills, as 
 
 ![Unit 2 Peer Response – Cybersecurity and Governance](Unit2-Peer-Response-2.png)
 
-## Unit 3
+## Unit 3: Data Collection and Storage
 
-To be completed.
+### Collaborative Discussion 1 – Summary Post
+
+In Unit 3, I completed the final summary post for Collaborative Discussion 1. This activity brought together my learning from Units 1, 2 and 3, as well as the feedback and different perspectives shared during the collaborative discussion.
+
+Through this activity, I developed a better understanding of the opportunities and challenges associated with large-scale data collection and the Internet of Things (IoT). I reflected on the importance of data quality, data preparation, security and privacy when organisations collect information from multiple connected devices and sources.
+
+The discussion also helped me recognise that collecting larger volumes of data does not automatically make the data more useful. Data must be accurate, relevant and appropriately managed before it can support reliable analysis and decision-making.
+
+### Reflection
+
+Completing the summary post helped me connect the ideas discussed throughout the three units. I particularly developed my understanding of how data quality and security need to be considered throughout the data lifecycle rather than as separate issues. Reviewing the discussion and peer contributions also helped me reflect on my original ideas and develop a more balanced understanding of responsible data collection and management.
+
+### Evidence
+
+- Collaborative Discussion 1 – Summary Post
+
+![Collaborative Discussion 1 Summary Post](Unit3-Summary-Post.png)
 
 ## Unit 4
 
