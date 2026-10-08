@@ -240,6 +240,67 @@ This structure reduces repeated student information and separates student-level 
 The StudentCourses table is an intermediate design. Further analysis of dependencies between courses, teachers, and examination boards is required before confirming Third Normal Form.
 
 
+#### Step 3: Third Normal Form (3NF)
+
+Third Normal Form (3NF) requires the database to satisfy 2NF and eliminate transitive dependencies, where non-key attributes depend on other non-key attributes rather than directly on the primary key.
+
+In the student dataset, teacher names are associated with particular courses. Storing teacher information repeatedly in the StudentCourses table creates unnecessary duplication.
+
+To improve the database structure, the information can be organised into three related tables.
+
+**Table 1: Students**
+
+| Student Number (PK) | Student Name | Exam Score | Support | Date of Birth |
+|---|---|---|---|---|
+| 1001 | Bob Baker | 78 | No | 25/08/2001 |
+| 1002 | Sally Davies | 55 | Yes | 02/10/1999 |
+| 1003 | Mark Hamnill | 90 | No | 05/06/1995 |
+| 1004 | Anas Ali | 70 | No | 03/08/1980 |
+| 1005 | Cheuk Yin | 45 | Yes | 01/05/2002 |
+
+**Table 2: Courses**
+
+| Course ID (PK) | Course Name | Teacher Name |
+|---|---|---|
+| C01 | Computer Science | Mr Jones |
+| C02 | Maths | Ms Parker |
+| C03 | Physics | Mr Peters |
+| C04 | Biology | Mrs Patel |
+| C05 | Music | Ms Daniels |
+
+**Table 3: StudentCourses**
+
+| Student Number (FK) | Course ID (FK) | Exam Board |
+|---|---|---|
+| 1001 | C01 | BCS |
+| 1001 | C02 | EdExcel |
+| 1001 | C03 | OCR |
+| 1002 | C02 | AQA |
+| 1002 | C04 | WJEC |
+| 1002 | C05 | AQA |
+
+The StudentCourses table uses a composite primary key consisting of Student Number and Course ID, assuming that each student is enrolled in each course only once.
+
+The Students table stores student-level information, while the Courses table stores course and teacher details. StudentCourses links students to their courses and records the relevant examination board.
+
+This design reduces repeated student and teacher information and helps prevent update anomalies.
+
+**Design assumptions and limitations:**
+
+- Each course is assumed to have one assigned teacher.
+- Exam Board is retained in StudentCourses because the same course may use different examination boards.
+- The Course IDs are introduced for the proposed database design.
+- The tables illustrate a subset of the original data. The remaining student-course records would also need to be included in a complete implementation.
+
+#### Normalisation Task Reflection
+
+This task helped me understand how database normalisation can improve the organisation and consistency of data. By examining the original student dataset, I identified repeating groups and explored how they could be separated into related tables.
+
+Moving through 1NF, 2NF and 3NF demonstrated the importance of primary keys, foreign keys and functional dependencies. It also highlighted that database design requires careful consideration of the relationships and assumptions within the data.
+
+The normalisation process provided useful knowledge for designing relational databases and reducing unnecessary data duplication.
+
+
 ## Unit 8
 
 To be completed.
