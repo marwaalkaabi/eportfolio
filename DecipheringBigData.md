@@ -300,6 +300,38 @@ Moving through 1NF, 2NF and 3NF demonstrated the importance of primary keys, for
 
 The normalisation process provided useful knowledge for designing relational databases and reducing unnecessary data duplication.
 
+## Data Build Task – Unit 7
+
+### Objective
+
+The Data Build Task required a relational database to be constructed from the normalised student dataset, with linked tables, primary and foreign keys, and referential-integrity testing.
+
+### Database implementation
+
+I prepared a SQLite database design with three linked tables: `Students`, `Courses` and `StudentCourses`. The `Students` table contains student details and one exam score per student, reflecting the original source. The `Courses` table contains course names and teacher names. `StudentCourses` connects students to courses and records the examination board for each enrolment.
+
+The database contains **5 students, 5 courses and 15 student-course records** based on the university task screenshot. `student_number` and `course_id` serve as primary keys in their respective tables, and the composite key (`student_number`, `course_id`) prevents duplicate enrolments. Foreign keys enforce valid links between the tables.
+
+### SQL validation and evidence
+
+The SQL script includes record-count queries, a three-table `JOIN`, and `PRAGMA foreign_key_check`. When the supplied SQLite database was tested, the counts were 5, 5 and 15 respectively, and `PRAGMA foreign_key_check` returned no violations. A test insertion referencing a nonexistent student was also rejected by the database, demonstrating enforcement of foreign-key constraints.
+
+**Evidence files:**
+
+- [SQLite database](unit7_normalisation.db)
+- [SQL build and validation script](unit7_database_build.sql)
+
+### Design assumptions and limitations
+
+The university task provides one exam score per student, so it is stored in `Students` rather than being treated as a course-level score. The source associates one teacher with each course, which is assumed to be consistent across students. Examination boards vary for Maths and are therefore recorded for each student-course enrolment. Course IDs were introduced as surrogate identifiers. These assumptions should be reconsidered if more detailed source data become available.
+
+### Reflection
+
+Building this database helped me connect the theory of normalisation with relational database implementation. I explored how separating student details, course details and enrolment records reduces repetition, while primary and foreign keys help maintain data integrity. The validation queries also showed why database testing is necessary before relying on data for analysis.
+
+*Note: The database and script are a worked implementation prepared from the Unit 7 task screenshot; the screenshot alone does not demonstrate that the database was previously built in the university activity.*
+
+
 
 ## Unit 8
 
