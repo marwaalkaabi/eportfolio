@@ -171,7 +171,40 @@ This experience provided a foundation for applying database analytics techniques
 
 ## Unit 7
 
-To be completed.
+
+## Unit 7 – Constructing Normalised Tables and Database Build
+
+### Normalisation Task
+
+#### Introduction
+
+This task involves converting an unnormalised student dataset into First Normal Form (1NF), Second Normal Form (2NF), and Third Normal Form (3NF).
+
+The original dataset contains student numbers, student names, exam scores, support information, dates of birth, course names, examination boards, and teacher names.
+
+The aim is to reduce data redundancy, improve data consistency, and organise the information into a relational database structure.
+
+#### Step 1: First Normal Form (1NF)
+
+The original table contains multiple course names, examination boards, and teacher names within individual cells. This violates the atomicity requirement of First Normal Form.
+
+To achieve 1NF, repeating groups are separated into individual rows, ensuring that each field contains a single value.
+
+**Example of the 1NF table:**
+
+| Student Number | Student Name | Course Name | Exam Board |
+|---|---|---|---|
+| 1001 | Bob Baker | Computer Science | BCS |
+| 1001 | Bob Baker | Maths | EdExcel |
+| 1001 | Bob Baker | Physics | OCR |
+| 1002 | Sally Davies | Maths | AQA |
+| 1002 | Sally Davies | Biology | WJEC |
+| 1002 | Sally Davies | Music | AQA |
+
+This transformation ensures that each cell contains a single value. However, student information is still repeated across multiple rows, which will be addressed in Second Normal Form.
+
+**Assumption:** The exam score is treated as a student-level attribute because the original table provides one score per student rather than a separate score for each course.
+
 
 ## Unit 8
 
