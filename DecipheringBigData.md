@@ -150,15 +150,24 @@ I also analysed sales according to product category.
 
 This query grouped the data by product category and calculated total sales for each category. It demonstrated how relationships between tables can be used to support more meaningful analysis rather than examining individual records separately.
 
+
+## Project Development and Change of Direction
+
+My initial project idea focused on developing an AI-assisted relational database for a custodian bank to support Collateralised Loan Obligations (CLOs). However, I later decided to change the project to an e-commerce database analytics solution using the Olist dataset.
+
+The final project focused on designing and implementing a relational database using SQLite, including data preparation, primary and foreign key relationships, data integrity checks, and SQL-based sales analysis.
+
+This change allowed me to develop practical experience in relational database design, data cleaning, and analysing transactional data. The completed Olist project demonstrates the application of these techniques to a real-world dataset.
+
 ## Reflection
 
-This unit improved my understanding of how relational databases are structured and why normalisation is important. Before completing this work, I mainly viewed a database as a place for storing data. Through the unit and the practical project, I developed a better understanding of how tables, primary keys and foreign keys work together to organise data and maintain relationships.
+Unit 6 provided an opportunity to apply database design and SQL techniques to a practical project. Working with the Olist E-Commerce dataset helped me understand how relational databases can organise transactional information and support meaningful business analysis.
 
-The practical SQL work was particularly useful because it allowed me to apply database concepts to an actual dataset. Examining table structures and relationships helped me understand the importance of designing databases carefully before carrying out analysis.
+One of the important aspects of this project was preparing the data and ensuring that the relationships between tables were accurate. I worked with customer, order, product, and order item data, using primary and foreign keys to maintain referential integrity. I also used SQL queries to explore sales patterns and extract useful information.
 
-I also learned that a well-organised database makes analytical queries more effective. By connecting related tables, I was able to calculate measures such as average order value and compare sales across product categories.
+Changing my initial project idea helped me recognise the importance of selecting a dataset that supports practical implementation and evaluation. Through the completed project, I developed my understanding of data preparation, relational database structures, SQL analysis, and the importance of validating results.
 
-Overall, Unit 6 strengthened both my technical SQL skills and my understanding of database design. These skills will be useful when working with larger datasets because good database structure, data integrity and clear relationships are important for producing reliable analysis.
+This experience provided a foundation for applying database analytics techniques to future projects.
 
 ## Unit 7
 
