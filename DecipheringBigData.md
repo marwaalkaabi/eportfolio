@@ -335,7 +335,60 @@ Building this database helped me connect the theory of normalisation with relati
 
 ## Unit 8
 
-To be completed.
+
+## Unit 8 – Compliance and Regulatory Framework for Managing Data
+
+### Overview
+
+Unit 8 focused on data protection, regulatory compliance, and the responsibilities of organisations when collecting, processing, and storing personal information.
+
+The unit explored the importance of protecting individuals' rights, applying appropriate security measures, and managing risks associated with personal data.
+
+### Collaborative Discussion 2 – Comparing Compliance Laws
+
+As part of the collaborative discussion, I contributed two peer responses examining data protection risks and security controls under the GDPR.
+
+#### Peer Response 1 – Pseudonymisation and Data Minimisation
+
+In my first peer response, posted on 16 September 2026, I discussed the limitations of pseudonymisation and the possibility of re-identifying individuals when different datasets are combined.
+
+I suggested combining pseudonymisation with data minimisation, access controls, and Data Protection Impact Assessments (DPIAs) to reduce privacy risks.
+
+**Evidence – Peer Response 1**
+
+![Unit 8 Peer Response 1](unit8-1.png)
+
+#### Peer Response 2 – Access Control and Data Security
+
+In my second peer response, also posted on 16 September 2026, I discussed the importance of risk-based security measures, particularly when organisations process sensitive personal information.
+
+I explored Role-Based Access Control (RBAC), Multi-Factor Authentication (MFA), encryption, regular security testing, and staff awareness training.
+
+I explained how combining technical and organisational controls could strengthen data protection and support GDPR compliance.
+
+**Evidence – Peer Response 2**
+
+![Unit 8 Peer Response 2](unit8-2.png)
+
+### Reflection
+
+Unit 8 helped me develop a deeper understanding of data protection responsibilities and the importance of regulatory compliance in data management.
+
+Through the collaborative discussion, I examined how organisations can reduce privacy and security risks using pseudonymisation, data minimisation, access controls, and risk assessments.
+
+Responding to other students' contributions encouraged me to consider different perspectives and evaluate how security measures can be applied in practical organisational environments.
+
+One important lesson was that no single security measure can guarantee complete protection. Effective data governance requires a combination of technical controls, organisational policies, and continuous risk assessment.
+
+### References
+
+Information Commissioner's Office (ICO). (2023). *Pseudonymisation*.
+
+Information Commissioner's Office (ICO). (2023). *Data protection impact assessments*.
+
+Information Commissioner's Office (ICO). (2026). *A guide to data security*.
+
+Ferraiolo, D. F., Cugini, J. A. and Kuhn, D. R. (1995). Role-Based Access Control (RBAC): Features and Motivations.
 
 ## Unit 9
 
