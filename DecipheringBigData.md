@@ -206,6 +206,40 @@ This transformation ensures that each cell contains a single value. However, stu
 **Assumption:** The exam score is treated as a student-level attribute because the original table provides one score per student rather than a separate score for each course.
 
 
+#### Step 2: Second Normal Form (2NF)
+
+Second Normal Form (2NF) requires the table to be in 1NF and ensures that non-key attributes depend on the entire primary key rather than only part of it.
+
+In the original student dataset, student details are repeated for every course. To reduce this redundancy, the data can be separated into two tables: Students and StudentCourses.
+
+**Table 1: Students**
+
+| Student Number (PK) | Student Name | Exam Score | Support | Date of Birth |
+|---|---|---|---|---|
+| 1001 | Bob Baker | 78 | No | 25/08/2001 |
+| 1002 | Sally Davies | 55 | Yes | 02/10/1999 |
+| 1003 | Mark Hamnill | 90 | No | 05/06/1995 |
+| 1004 | Anas Ali | 70 | No | 03/08/1980 |
+| 1005 | Cheuk Yin | 45 | Yes | 01/05/2002 |
+
+**Table 2: StudentCourses**
+
+| Student Number (FK) | Course Name | Exam Board | Teacher Name |
+|---|---|---|---|
+| 1001 | Computer Science | BCS | Mr Jones |
+| 1001 | Maths | EdExcel | Ms Parker |
+| 1001 | Physics | OCR | Mr Peters |
+| 1002 | Maths | AQA | Ms Parker |
+| 1002 | Biology | WJEC | Mrs Patel |
+| 1002 | Music | AQA | Ms Daniels |
+
+The Students table uses Student Number as its primary key. In StudentCourses, the combination of Student Number and Course Name can be used as a composite key, assuming each student takes each course only once.
+
+This structure reduces repeated student information and separates student-level attributes from course enrolment records.
+
+The StudentCourses table is an intermediate design. Further analysis of dependencies between courses, teachers, and examination boards is required before confirming Third Normal Form.
+
+
 ## Unit 8
 
 To be completed.
