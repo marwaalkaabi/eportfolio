@@ -84,17 +84,25 @@ The unit has strengthened my understanding of the importance of data quality and
 ![Unit 4 Data Management Pipeline Test](Unit4-Data-Management-Pipeline-Test.png)
 
 
-## Unit 5: Data Cleaning and Automating Data Collections
 
-### Learning Reflection
+## Unit 5 – Data Pipeline Automation and Data Wrangling
 
-In Unit 5, I developed my practical understanding of data cleaning and the use of Python to support data preparation and processing. I worked through the activities in the unit and explored how data can be cleaned, organised and converted into appropriate formats such as CSV.
+### Overview
+Unit 5 introduced important concepts related to big data computing, data pipeline automation, and data wrangling using Python. The reading materials focused on how data pipelines support the movement and processing of data and how tools such as Pandas and NumPy can be used to prepare datasets for analysis.
 
-Through these activities, I gained a better understanding of the importance of identifying data quality issues before analysis. I also explored how Python scripts can be used to automate repetitive data-cleaning tasks. This showed me how automation can improve efficiency, particularly when working with larger datasets where manual processing would be time-consuming.
+### Key Learning Topics
+- Understanding the purpose of data pipelines in big data environments.
+- Exploring how automation can improve data processing workflows.
+- Understanding the role of Python, Pandas, and NumPy in data preparation.
+- Recognising the importance of data quality and efficient data processing.
 
-The unit also helped me understand the importance of clearly defining the inputs, outputs and purpose of an automated process. I learned that automation should be designed around a specific task rather than applied without considering the requirements of the data and the intended outcome.
+### Reflection
+The topics introduced in this unit highlighted the importance of organising data processing workflows. Data pipeline automation is particularly relevant when working with large datasets because it can reduce repetitive manual tasks and improve consistency. These concepts provide a foundation for understanding more advanced data processing techniques.
 
-I also developed my understanding of data models and how they can be used as conceptual representations of relationships between data. Overall, Unit 5 strengthened my understanding of the connection between data cleaning, automation and effective data management, and showed me how Python can support more efficient and reliable data-processing workflows.
+### Evidence
+
+
+This screenshot shows the reading materials provided for Unit 5, covering Big Data Computing, Data Pipeline Automation, and Python-based Data Wrangling. These resources introduce important concepts related to data processing, automation, and preparing data for analysis.
 
 # Unit 6 – Database Design and Normalisation
 
