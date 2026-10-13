@@ -385,7 +385,70 @@ United Arab Emirates Government (2021). *Federal Decree-Law No. 45 of 2021 Conce
 
 ## Unit 9
 
-To be completed.
+## Unit 9 – Database Management Systems (DBMS) and Models
+
+### Overview
+
+Unit 9 focused on the concepts, design principles, and applications of Database Management Systems (DBMS). The unit introduced different database models, including relational databases, NoSQL databases, data warehouses, and data lakes.
+
+It also explored the strengths and limitations of different database systems and the importance of selecting appropriate database technologies for managing large datasets.
+
+### Collaborative Discussion 2 – Peer Responses
+
+As part of the second week of Collaborative Discussion 2, I responded to two peers on 16 September 2026. My responses built on the discussion of data protection legislation from Unit 8 and explored practical approaches to protecting personal data.
+
+#### Peer Response 1 – Pseudonymisation and Data Minimisation
+
+In my first peer response, I discussed the limitations of pseudonymisation and the possibility of re-identifying individuals when different datasets are combined.
+
+I explained that pseudonymisation alone cannot guarantee anonymity, particularly in big data environments where multiple sources of information may be linked.
+
+I suggested combining pseudonymisation with data minimisation, access controls, and Data Protection Impact Assessments (DPIAs) to reduce privacy risks and support regulatory compliance.
+
+**Evidence – Peer Response 1**
+
+[Unit 9 Peer Response 1](https://github.com/marwaalkaabi/eportfolio/blob/main/unit8-1.png)
+
+![Unit 9 Peer Response 1](unit8-1.png)
+
+#### Peer Response 2 – Access Control and Data Security
+
+In my second peer response, I discussed the importance of implementing risk-based security measures when organisations process sensitive personal information.
+
+I explored several security controls, including Role-Based Access Control (RBAC), Multi-Factor Authentication (MFA), encryption, regular security testing, and staff awareness training.
+
+I explained that combining technical and organisational security measures can strengthen data protection and help organisations meet their responsibilities under the GDPR.
+
+**Evidence – Peer Response 2**
+
+[Unit 9 Peer Response 2](https://github.com/marwaalkaabi/eportfolio/blob/main/unit8-2.png)
+
+![Unit 9 Peer Response 2](unit8-2.png)
+
+### Reflection
+
+Unit 9 helped me develop a broader understanding of database management systems and the importance of selecting suitable database models for different data processing requirements.
+
+Studying relational and non-relational database systems helped me recognise that database design decisions depend on factors such as data structure, scalability, performance, and application requirements.
+
+The collaborative discussion also allowed me to explore how data protection principles can be applied in practical data management environments.
+
+Through my peer responses, I considered the limitations of pseudonymisation and the importance of combining different security controls to reduce risks associated with processing personal information.
+
+One important lesson was that database management involves more than storing and retrieving data. Organisations must also consider data security, access management, regulatory compliance, and the risks associated with large datasets.
+
+This unit strengthened my understanding of the relationship between database design and responsible data management. I can apply this knowledge in future projects when evaluating database technologies and considering appropriate security measures.
+
+### References
+
+Information Commissioner's Office (ICO). (2023). *Pseudonymisation*.
+
+Information Commissioner's Office (ICO). (2023). *Data protection impact assessments*.
+
+Information Commissioner's Office (ICO). (2026). *A guide to data security*. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security/.
+
+Ferraiolo, D. F., Cugini, J. A. and Kuhn, D. R. (1995). Role-Based Access Control (RBAC): Features and Motivations.
+
 
 ## Unit 10
 
