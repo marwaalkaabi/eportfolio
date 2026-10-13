@@ -797,8 +797,147 @@ Overall, the final project achieved its revised technical objectives and strengt
 
 ## Professional and Personal Development
 
-To be completed.
+
+### Technical Skills Development
+
+Throughout the Deciphering Big Data module, I developed my technical understanding of data management, database design and analytical techniques.
+
+One of the most valuable experiences was working on my individual database project using the Olist E-Commerce Dataset.
+
+Through this project, I gained practical experience using Python, SQL and SQLite to prepare, organise and analyse transactional data.
+
+I developed my understanding of relational database structures, primary and foreign keys, data normalisation and integrity validation.
+
+I also improved my ability to identify data quality issues, test SQL queries and interpret analytical findings.
+
+These skills are relevant to professional environments where accurate data management and reliable analysis are essential for decision-making.
+
+### Problem-Solving and Independent Learning
+
+An important part of my personal development was learning how to respond to unexpected technical challenges.
+
+My original project proposal focused on a banking database involving Collateralised Loan Obligation (CLO) data. However, I found the dataset too large and complex to manage effectively.
+
+I independently decided to change the project scope and work with a smaller sample from the Olist E-Commerce Dataset.
+
+This decision helped me understand the importance of realistic planning, evaluating available resources and adapting technical approaches when necessary.
+
+Completing the project independently also strengthened my ability to organise tasks, take responsibility for decisions and evaluate my own work.
+
+### Communication and Critical Thinking
+
+The collaborative discussions throughout the module helped me develop my academic communication and critical thinking skills.
+
+For example, comparing the GDPR with the UAE Personal Data Protection Law encouraged me to evaluate different regulatory frameworks and explain their practical implications.
+
+Responding to peers also helped me consider alternative perspectives on data security, pseudonymisation and access controls.
+
+Although I completed my database project independently, the collaborative discussions provided opportunities to engage with other students and develop my ability to communicate technical concepts clearly.
+
+### Responsible Use of AI
+
+Another important area of development was learning to use AI-assisted tools responsibly.
+
+During my project, AI supported selected activities such as database design, SQL query development and troubleshooting.
+
+However, I learned that AI-generated outputs should not be accepted without verification.
+
+I manually tested database relationships and SQL queries to confirm their accuracy.
+
+This experience strengthened my awareness of the importance of human oversight, critical evaluation and academic integrity when using AI in technical work.
+
+### Future Professional Development
+
+The knowledge and skills developed throughout this module will support my future academic and professional development.
+
+I aim to continue improving my SQL and Python skills and develop greater confidence in managing larger datasets.
+
+I would also like to explore advanced data visualisation, database optimisation and machine learning applications.
+
+Overall, the module strengthened my technical knowledge, independent problem-solving abilities, analytical thinking and confidence in managing data-related projects.
 
 ## Critical Reflection
 
-To be completed.
+
+### Introduction
+
+Reflecting on my experience throughout the Deciphering Big Data module, I recognise that my learning involved both technical development and personal challenges.
+
+The module introduced different aspects of data management, including data preparation, database design, security, regulatory compliance and analytical techniques.
+
+My individual project provided an opportunity to apply these concepts in practice and evaluate my progress.
+
+### Challenges and Emotional Response
+
+One of the main challenges I experienced was managing the size and complexity of the dataset associated with my original CLO banking database proposal.
+
+Initially, I found it difficult to organise the data and determine how to implement the proposed database effectively.
+
+This made me concerned about whether I could complete the project successfully.
+
+Rather than continuing with an approach that was becoming difficult to manage, I decided to change the project scope and select a more manageable dataset.
+
+Although this required additional planning, it allowed me to concentrate on achieving the main technical objectives.
+
+Looking back, I recognise that the challenge helped me develop greater confidence in making independent decisions.
+
+### Learning Through Practical Experience
+
+Working with the Olist E-Commerce Dataset helped me understand the importance of preparing and validating data before performing analysis.
+
+I developed a relational database using SQLite and SQL, established relationships between tables and completed integrity checks.
+
+One important lesson was that successful database implementation involves more than creating tables and writing queries.
+
+Data accuracy, consistency and validation are essential for producing reliable analytical results.
+
+I also recognised that analytical findings must be interpreted carefully, particularly when working with a limited sample.
+
+### Learning from Collaboration and Feedback
+
+The collaborative discussions provided another important learning experience.
+
+Comparing the GDPR with the UAE Personal Data Protection Law helped me understand how different regulatory frameworks influence organisational data management.
+
+Feedback from another student encouraged me to consider how security measures should be adapted to different organisational environments.
+
+Responding to peers also helped me recognise that effective data protection requires a combination of technical measures, organisational policies and continuous risk assessment.
+
+These activities strengthened my ability to evaluate different perspectives and communicate my understanding of complex topics.
+
+### Critical Evaluation of My Performance
+
+One of my strengths throughout the module was my willingness to adapt when difficulties occurred.
+
+Changing the project dataset demonstrated my ability to identify a problem and make a practical decision to address it.
+
+However, I also recognise that my initial project planning could have been more effective.
+
+Evaluating the dataset size, structure and technical requirements earlier would have helped me identify potential challenges before beginning implementation.
+
+Another area for improvement is developing greater confidence in working with complex datasets and advanced analytical techniques.
+
+Although AI-assisted tools supported my project, I learned that independent verification remains essential.
+
+### Future Application and Action Plan
+
+The knowledge gained throughout this module will influence how I approach future data-related projects.
+
+Before beginning a project, I intend to assess the available data, define realistic objectives and identify potential technical limitations.
+
+I also plan to improve my SQL, Python and data visualisation skills through further practical exercises.
+
+In future projects, I will continue using systematic validation techniques and critically evaluating AI-generated suggestions.
+
+I will also aim to strengthen my ability to work with larger datasets while maintaining data quality, security and regulatory compliance.
+
+### Conclusion
+
+Overall, the Deciphering Big Data module has been a valuable learning experience.
+
+It helped me develop technical skills in database management and data analysis while improving my problem-solving, critical thinking and independent learning abilities.
+
+The challenges I encountered demonstrated the importance of flexibility, realistic planning and continuous evaluation.
+
+Most importantly, I learned that successful data analytics requires not only technical knowledge but also responsible decision-making, accurate validation and the ability to learn from experience.
+
