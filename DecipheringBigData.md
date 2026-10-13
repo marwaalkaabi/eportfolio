@@ -452,7 +452,63 @@ Ferraiolo, D. F., Cugini, J. A. and Kuhn, D. R. (1995). Role-Based Access Contro
 
 ## Unit 10
 
-To be completed.
+
+## Unit 10 – More on APIs (Application Programming Interfaces) for Data Parsing
+
+### Overview
+
+Unit 10 focused on Application Programming Interfaces (APIs) and their role in data parsing, system integration, and communication between applications.
+
+The unit introduced the importance of API functionality, security, and resilience, particularly when APIs are used to exchange and process data across different systems.
+
+It also considered the challenges associated with API implementation and the need to protect information during data transmission and processing.
+
+### Collaborative Discussion 2 – Summary Post
+
+As part of the final week of Collaborative Discussion 2, I submitted my summary post on 27 September 2026.
+
+The summary brought together my initial comparison of the General Data Protection Regulation (GDPR) and the UAE Personal Data Protection Law, alongside the feedback received from a peer and the key points explored throughout the discussion.
+
+In my initial contribution, I identified that both regulatory frameworks adopt a risk-based approach to protecting personal data. In my summary, I reflected on how organisations should select security measures according to the nature of the information being processed, the scale of processing, and the potential impact of a data breach.
+
+The feedback I received reinforced the similarities between the UK GDPR and the UAE legislation. It also encouraged me to consider why security requirements should be adapted to different organisational environments rather than applying the same controls in every situation.
+
+I highlighted that technical measures, including encryption and pseudonymisation, must be supported by organisational controls such as access management, staff awareness, regular risk assessments, and security testing.
+
+My main conclusion was that effective regulatory compliance requires continuous attention throughout the data-processing lifecycle, particularly in big data environments where security incidents may affect large numbers of individuals.
+
+**Evidence – Summary Post**
+
+[Unit 10 Summary Post](https://github.com/marwaalkaabi/eportfolio/blob/main/unit8-3.png)
+
+![Unit 10 Summary Post](unit8-3.png)
+
+### API Security Requirements
+
+Unit 10 also introduced the importance of securing APIs used for data parsing and communication between systems.
+
+The API Security Requirements activity focuses on identifying security considerations that support reliable API functionality and protect data exchanged between applications.
+
+[To be completed using evidence from the API Security Requirements activity.]
+
+### Reflection
+
+Completing the final stage of Collaborative Discussion 2 helped me consolidate my understanding of data protection legislation and the relationship between regulatory compliance and practical security controls.
+
+One important aspect of this activity was considering the feedback received from another student. This encouraged me to look beyond the similarities between legal frameworks and think more critically about how security measures should be adapted to different organisational requirements.
+
+I also recognised that protecting personal data requires ongoing risk assessment rather than relying on a single technical solution. This is particularly relevant when organisations manage large datasets or exchange information between systems.
+
+The introduction to API security provided a further opportunity to consider how data protection principles relate to application connectivity and secure information exchange.
+
+This learning will be useful in future data-related projects, where I will need to consider not only how information is processed but also how it is protected throughout its lifecycle.
+
+### References
+
+Information Commissioner's Office (ICO). (2026). *A guide to data security*. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security/ (Accessed: 27 September 2026).
+
+United Arab Emirates Government (2021). *Federal Decree-Law No. 45 of 2021 Concerning the Protection of Personal Data*. Available at: https://uaelegislation.gov.ae/en/legislations/1972 (Accessed: 27 September 2026).
+
 
 ## Unit 11
 
