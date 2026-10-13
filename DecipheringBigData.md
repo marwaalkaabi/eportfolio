@@ -696,7 +696,104 @@ Information Commissioner's Office (ICO) (2026). *A guide to the data protection 
 
 ## Final Project Evaluation
 
-To be completed.
+
+### Comparison of Initial Proposal (Unit 6) and Final Project (Unit 11)
+
+My initial project proposal in Unit 6 focused on developing an AI-assisted relational database for a custodian bank's Corporate Trust department, particularly for managing Collateralised Loan Obligation (CLO) data.
+
+The proposed solution aimed to improve data organisation, data quality and analytical reporting using Python, SQLite, SQL and Power BI.
+
+However, the final project was developed using the Brazilian Olist E-Commerce Dataset. Although the application domain changed from banking to e-commerce, the main technical objectives remained similar, including relational database design, data preparation, validation and SQL-based analysis.
+
+### Project Scope Adjustment and Challenges
+
+During the early stages of the project, I encountered difficulties working with the size and complexity of the dataset associated with my original banking proposal.
+
+Managing the large dataset was challenging, particularly when preparing the data and developing a suitable database structure.
+
+After considering these difficulties, I independently decided to change the project scope and use the Olist E-Commerce Dataset.
+
+I selected a manageable sample of 1,000 delivered orders, allowing me to concentrate on database implementation, data cleaning, validation and analysis.
+
+Although changing the dataset required me to reconsider the original project design, it helped me develop a more practical solution while maintaining the main technical learning objectives.
+
+This experience demonstrated the importance of evaluating dataset suitability, managing project scope and adapting plans when technical challenges arise.
+
+Looking back, I recognise that assessing the size and complexity of the original dataset earlier would have helped me plan the project more effectively.
+
+### Evaluation of Database Design and Implementation
+
+The initial proposal included a relational database structure designed around banking entities such as CLO deals, collateral managers, obligors, assets, trades and portfolio tests.
+
+In the final implementation, I developed four relational tables:
+
+- Customers
+- Orders
+- Products
+- Order Items
+
+The database contained 1,000 customers, 1,000 delivered orders, 1,151 order-item records and 942 products.
+
+I used SQLite and SQL to establish primary keys, foreign-key relationships and a composite primary key for the order_items table.
+
+Data preparation involved importing CSV files into staging tables, correcting import issues, checking identifier uniqueness and validating relationships between records.
+
+The final database passed the SQLite foreign-key integrity check with zero violations.
+
+This demonstrated that the implemented database maintained consistent relationships between its tables.
+
+### Evaluation of Data Analysis and Results
+
+SQL aggregation, grouping and multi-table joins were used to analyse sales performance across product categories, customer states and purchase months.
+
+The analysis produced the following results:
+
+- Total merchandise sales: 135,150.38
+- Average order value: 135.15
+- Highest-performing product category: beleza_saude (15,187.21)
+- Highest-performing customer state: São Paulo (51,137.61)
+- Highest-sales month: November 2017 (12,312.79)
+
+These results demonstrated how relational database techniques could transform transactional data into useful business information.
+
+However, the analysis was based on a non-random sample of 1,000 delivered orders rather than the complete dataset.
+
+Therefore, the findings could not be generalised to the entire Olist business.
+
+### Critical Evaluation of the Final Project
+
+One of the main strengths of the final project was the successful implementation of a relational database supported by SQL analysis and data-integrity validation.
+
+The project also demonstrated my ability to work independently, solve technical problems and adapt the original plan when necessary.
+
+AI-assisted tools supported selected tasks, including database design, SQL query development and troubleshooting.
+
+However, I did not assume that AI-generated suggestions were always accurate. I manually tested SQL queries and verified database relationships using SQLite integrity checks.
+
+One limitation was the change from the original banking application to e-commerce analysis. As a result, the final project did not implement the CLO-specific functions originally proposed.
+
+Another limitation was the restricted sample size, which reduced the generalisability of the analytical findings.
+
+The project also identified potential improvements, including storing customer postal-code prefixes as text to preserve leading zeros, introducing a separate sellers table and expanding the dataset.
+
+### Lessons Learned and Future Improvements
+
+Comparing the initial proposal with the final implementation helped me understand the importance of realistic project planning and scope management.
+
+The main challenge was not simply selecting a dataset but ensuring that the data could be prepared, structured, validated and analysed effectively.
+
+Changing the project independently required me to reconsider my approach and make decisions based on the practical requirements of the assessment.
+
+I developed stronger skills in relational database design, SQL, SQLite, data preparation and analytical validation.
+
+I also learned that AI-assisted tools can support technical development, but their outputs must be independently verified.
+
+In future projects, I would assess dataset size, structure and quality before finalising the project scope.
+
+I would also consider using a larger and more representative dataset, improving database normalisation and developing more advanced analytical visualisations.
+
+Overall, the final project achieved its revised technical objectives and strengthened my ability to manage data-related challenges, evaluate analytical results and make informed decisions throughout the development process.
+
 
 ## Professional and Personal Development
 
