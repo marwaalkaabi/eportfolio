@@ -512,7 +512,118 @@ United Arab Emirates Government (2021). *Federal Decree-Law No. 45 of 2021 Conce
 
 ## Unit 11
 
-To be completed.
+## Unit 11 – DBMS Transaction and Recovery
+
+### Overview
+
+Unit 11 focused on database transaction processing, consistency, and recovery mechanisms. The unit introduced the ACID properties (Atomicity, Consistency, Isolation and Durability) and examined how database systems maintain data integrity during transactions and system failures.
+
+The unit also explored transaction scheduling, checkpoints, backup procedures and recovery strategies to ensure that databases remain reliable and consistent.
+
+### Individual Project – AI-Assisted Relational Database and Sales Analytics
+
+As part of the individual project, I developed an AI-assisted database analytics solution using a sample from the Brazilian Olist E-Commerce Dataset.
+
+The project aimed to transform transactional data into a structured relational database that could support sales analysis, management reporting and evidence-based business decisions.
+
+The implementation used SQLite, SQL and Python to prepare, validate and analyse the data. AI-assisted techniques were also used for data profiling, feature engineering and analytical development, with results independently validated.
+
+#### Database Design and Implementation
+
+I organised the dataset into four relational tables:
+
+- Customers
+- Orders
+- Products
+- Order Items
+
+The database contained 1,000 delivered orders, 1,000 customers, 1,151 order-item records and 942 products.
+
+Primary keys, a composite key and foreign-key relationships were used to maintain referential integrity and support reliable SQL joins.
+
+SQLite validation confirmed that the database contained no foreign-key violations.
+
+#### Data Cleaning and Validation
+
+I used Python and Pandas to examine data types, missing values and identifier uniqueness.
+
+The profiling identified 36 missing cells across four descriptive product fields. Rather than replacing unknown values with assumptions, I retained the missing values and excluded null category labels where appropriate.
+
+I also completed nine validation checks covering identifier uniqueness, foreign-key relationships, non-negative prices, freight values and delivery durations.
+
+All nine validation checks passed.
+
+#### Sales Analysis and Findings
+
+SQL queries and Python analysis were used to examine merchandise sales, product categories, customer geography and monthly trends.
+
+The analysis produced the following findings:
+
+- Total merchandise sales: 135,150.38
+- Delivered orders: 1,000
+- Average order value: 135.15
+- Highest-performing product category: beleza_saude (15,187.21)
+- Highest-performing customer state: São Paulo (51,137.61)
+- Highest-sales month: November 2017 (12,312.79)
+
+These findings were based on the selected sample and were not treated as representative of the entire Olist dataset.
+
+#### Interactive Dashboard
+
+I also developed an interactive HTML dashboard to present the analytical findings in an accessible format.
+
+The dashboard included filters for product categories, customer states and purchase months, allowing users to explore sales performance from different perspectives.
+
+The main dashboard totals were reconciled with the SQL outputs to support consistency and reliability.
+
+### Database Integrity and Recovery Considerations
+
+The project highlighted the importance of maintaining data integrity in relational database systems.
+
+Foreign-key constraints and validation checks helped ensure that relationships between customers, orders, products and order items remained consistent.
+
+The concepts introduced in Unit 11, particularly atomicity, consistency, isolation and durability, are relevant to maintaining reliable transaction processing.
+
+Backup procedures, checkpoints and recovery mechanisms are also important considerations for protecting database availability and preventing data loss.
+
+Although my project validated relational integrity, the submitted executive summary does not document a separate backup-and-recovery implementation or transaction failure simulation.
+
+### Evidence – Individual Project
+
+The individual project was documented in my Executive Summary, submitted in October 2026.
+
+The report includes the database design, data profiling, validation results, analytical findings, dashboard description and recommendations.
+
+**Evidence – Individual Project Executive Summary**
+
+[View Individual Project Executive Summary (PDF)](https://github.com/marwaalkaabi/eportfolio/blob/main/Individual%20Submission.pdf)
+
+### Reflection
+
+Unit 11 strengthened my understanding of the importance of database reliability, transaction consistency and data integrity.
+
+Through my individual project, I gained practical experience in designing a relational database, preparing data for analysis and validating the accuracy of database relationships.
+
+One important lesson was that analytical results should not be accepted without verification. I used both SQLite and Python validation checks to confirm that the data remained consistent and that the analytical outputs were supported by the source records.
+
+I also recognised the limitations of working with a selected sample. Although the analysis identified useful patterns in sales performance, these findings could not be generalised to the entire dataset without further investigation.
+
+The unit encouraged me to consider database reliability beyond data cleaning and analysis, particularly the role of transaction management, backup procedures and recovery mechanisms.
+
+This experience strengthened my technical skills in SQL, SQLite, Python and data validation. It also reinforced the importance of combining analytical development with data governance, documentation and critical evaluation.
+
+### References
+
+Information Commissioner's Office (ICO) (2026). *A guide to the data protection principles*. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/.
+
+National Institute of Standards and Technology (NIST) (2024). *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*. Available at: https://doi.org/10.6028/NIST.AI.600-1.
+
+Olist (n.d.). *Brazilian E-Commerce Public Dataset by Olist*. Available at: https://www.kaggle.com/olistbr/brazilian-ecommerce/.
+
+SQLite (2026). *SQLite Foreign Key Support*. Available at: https://www.sqlite.org/foreignkeys.html.
+
+SQLite (2026). *PRAGMA Statements*. Available at: https://www.sqlite.org/pragma.html.
+
 
 ## Unit 12
 
