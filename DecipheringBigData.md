@@ -627,7 +627,72 @@ SQLite (2026). *PRAGMA Statements*. Available at: https://www.sqlite.org/pragma.
 
 ## Unit 12
 
-To be completed.
+
+## Unit 12 – Future of Big Data Analytics
+
+### Overview
+
+Unit 12 focused on the future of big data analytics, with particular attention to emerging technologies, machine learning and their applications in modern organisations.
+
+The unit explored how advances in data analytics can support decision-making, improve organisational processes and create opportunities for innovation.
+
+It also highlighted the importance of regulatory compliance, data protection and responsible approaches to managing large and complex datasets.
+
+### Emerging Trends in Big Data Analytics
+
+The unit introduced the growing role of machine learning in analysing large datasets and identifying patterns that may be difficult to detect through traditional analytical methods.
+
+Machine learning can support organisations through predictive analytics, automated data classification and the identification of trends in complex information.
+
+However, the successful application of these technologies depends on data quality, appropriate model selection, transparency and the responsible handling of personal information.
+
+### Application to My Individual Project
+
+The topics covered in Unit 12 were relevant to my individual project, which involved developing an AI-assisted relational database and sales analytics solution using the Olist E-Commerce Dataset.
+
+In my project, I used SQLite, SQL and Python to prepare and analyse transactional data. AI-assisted techniques supported data profiling, feature engineering and analytical development.
+
+The project also included an interactive dashboard that presented sales performance by product category, customer location and purchase month.
+
+Although the project did not implement a predictive machine learning model, the structured database and validated analytical features could provide a foundation for future machine learning applications.
+
+For example, future developments could explore sales forecasting, customer purchasing patterns and product demand prediction.
+
+These extensions would require additional data preparation, appropriate modelling techniques and careful evaluation to ensure that the predictions were reliable.
+
+### Data Protection and Responsible AI
+
+Another important aspect of Unit 12 was the relationship between emerging analytical technologies and data protection responsibilities.
+
+As organisations increasingly use machine learning and AI-assisted systems, they must consider privacy, security, transparency and regulatory compliance.
+
+My individual project reinforced the importance of validating AI-assisted outputs rather than accepting generated results without verification.
+
+I used database and Python validation checks to support the reliability of the analytical findings.
+
+This demonstrated the importance of maintaining human oversight and ensuring that analytical conclusions are supported by evidence.
+
+### Reflection
+
+Unit 12 encouraged me to consider how the technical skills developed throughout the module could be applied to future developments in big data analytics.
+
+One of the most important lessons was understanding the relationship between traditional database technologies, data preparation and emerging machine learning applications.
+
+Through my individual project, I recognised that reliable analytical outcomes depend on accurate data, appropriate database structures and systematic validation.
+
+I also developed a greater appreciation of the limitations of AI-assisted analysis. Although AI can support programming and data exploration, its outputs must be critically evaluated and verified.
+
+The unit helped me recognise opportunities for extending my existing analytical work into predictive applications, while also considering the additional responsibilities associated with data governance and model evaluation.
+
+Overall, the module strengthened my understanding of how data engineering, analytics and responsible AI practices can work together to support evidence-based decision-making.
+
+### References
+
+National Institute of Standards and Technology (NIST) (2024). *Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile*. Available at: https://doi.org/10.6028/NIST.AI.600-1.
+
+Olist (n.d.). *Brazilian E-Commerce Public Dataset by Olist*. Available at: https://www.kaggle.com/olistbr/brazilian-ecommerce/.
+
+Information Commissioner's Office (ICO) (2026). *A guide to the data protection principles*. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/.
 
 ## Final Project Evaluation
 
