@@ -336,6 +336,7 @@ Building this database helped me connect the theory of normalisation with relati
 ## Unit 8
 
 
+
 ## Unit 8 – Compliance and Regulatory Framework for Managing Data
 
 ### Overview
@@ -346,49 +347,41 @@ The unit explored the importance of protecting individuals' rights, applying app
 
 ### Collaborative Discussion 2 – Comparing Compliance Laws
 
-As part of the collaborative discussion, I contributed two peer responses examining data protection risks and security controls under the GDPR.
+#### Initial Post – GDPR and UAE Personal Data Protection Law
 
-#### Peer Response 1 – Pseudonymisation and Data Minimisation
+As part of Collaborative Discussion 2, I submitted my initial post on 14 September 2026, comparing the data security requirements of the General Data Protection Regulation (GDPR) and the UAE Personal Data Protection Law (Federal Decree-Law No. 45 of 2021).
 
-In my first peer response, posted on 16 September 2026, I discussed the limitations of pseudonymisation and the possibility of re-identifying individuals when different datasets are combined.
+In my discussion, I examined Article 5(1)(f) and Article 32 of the GDPR, which emphasise the importance of protecting personal data through appropriate technical and organisational security measures.
 
-I suggested combining pseudonymisation with data minimisation, access controls, and Data Protection Impact Assessments (DPIAs) to reduce privacy risks.
+I compared these requirements with Article 20 of the UAE Personal Data Protection Law, which also requires organisations to implement security measures appropriate to the risks associated with processing personal data.
 
-**Evidence – Peer Response 1**
+I identified that both regulatory frameworks adopt a risk-based approach to data security. However, I also highlighted differences in their scope, particularly the exemptions under the UAE legislation for certain categories of data and organisations.
 
-![Unit 8 Peer Response 1](unit8-1.png)
+I concluded that these regulations are particularly important in big data environments, where security breaches may affect large numbers of individuals. Measures such as encryption, access management and regular security testing can help organisations reduce these risks.
 
-#### Peer Response 2 – Access Control and Data Security
+**Evidence – Initial Discussion Post**
 
-In my second peer response, also posted on 16 September 2026, I discussed the importance of risk-based security measures, particularly when organisations process sensitive personal information.
+[Unit 8 Initial Post](https://github.com/marwaalkaabi/eportfolio/blob/main/unit8.png)
 
-I explored Role-Based Access Control (RBAC), Multi-Factor Authentication (MFA), encryption, regular security testing, and staff awareness training.
-
-I explained how combining technical and organisational controls could strengthen data protection and support GDPR compliance.
-
-**Evidence – Peer Response 2**
-
-![Unit 8 Peer Response 2](unit8-2.png)
+![Unit 8 Initial Discussion Post](unit8.png)
 
 ### Reflection
 
-Unit 8 helped me develop a deeper understanding of data protection responsibilities and the importance of regulatory compliance in data management.
+Unit 8 helped me develop a clearer understanding of how data protection legislation influences the management and security of personal information.
 
-Through the collaborative discussion, I examined how organisations can reduce privacy and security risks using pseudonymisation, data minimisation, access controls, and risk assessments.
+Comparing the GDPR with the UAE Personal Data Protection Law allowed me to recognise that, although different jurisdictions have their own regulatory frameworks, they share important principles relating to data security and risk management.
 
-Responding to other students' contributions encouraged me to consider different perspectives and evaluate how security measures can be applied in practical organisational environments.
+One of the main challenges was identifying both the similarities and differences between the two laws rather than simply describing their requirements. This encouraged me to examine specific legal provisions and consider how they apply to organisations processing large datasets.
 
-One important lesson was that no single security measure can guarantee complete protection. Effective data governance requires a combination of technical controls, organisational policies, and continuous risk assessment.
+I also developed a better understanding of why security measures should be proportionate to the risks involved in data processing. In particular, I recognised the importance of combining technical controls, such as encryption and access management, with organisational responsibilities.
+
+This activity strengthened my ability to compare regulatory requirements and evaluate their practical implications. I can apply this knowledge in future data-related projects by considering privacy, security and legal compliance when designing data processing solutions.
 
 ### References
 
-Information Commissioner's Office (ICO). (2023). *Pseudonymisation*.
+Information Commissioner's Office (ICO). (2026). *A guide to data security*. Available at: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security/ (Accessed: 14 September 2026).
 
-Information Commissioner's Office (ICO). (2023). *Data protection impact assessments*.
-
-Information Commissioner's Office (ICO). (2026). *A guide to data security*.
-
-Ferraiolo, D. F., Cugini, J. A. and Kuhn, D. R. (1995). Role-Based Access Control (RBAC): Features and Motivations.
+United Arab Emirates Government (2021). *Federal Decree-Law No. 45 of 2021 Concerning the Protection of Personal Data*. Available at: https://uaelegislation.gov.ae/ (Accessed: 14 September 2026).
 
 ## Unit 9
 
